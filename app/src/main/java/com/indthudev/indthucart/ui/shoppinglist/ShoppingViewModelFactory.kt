@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.indthudev.indthucart.data.repositories.ShoppingRepository
 
 @Suppress("UNCHECKED_CAST")
-class ShoppingViewModelFactory(
+class  ShoppingViewModelFactory(
     private val repository: ShoppingRepository
 ):ViewModelProvider.NewInstanceFactory() {
 
