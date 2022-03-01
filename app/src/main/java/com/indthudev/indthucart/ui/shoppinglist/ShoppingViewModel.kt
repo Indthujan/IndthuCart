@@ -9,7 +9,7 @@ import kotlinx.coroutines.launch
 
 class ShoppingViewModel(
     private val repository: ShoppingRepository
-):ViewModel() {
+) : ViewModel() {
 
     fun upsert(item: ShoppingItem) = CoroutineScope(Dispatchers.Main).launch {
         repository.upsert(item)
